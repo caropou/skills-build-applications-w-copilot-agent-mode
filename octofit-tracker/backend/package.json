@@ -5,10 +5,10 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
+    "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/index.js",
-    "seed": "tsx src/seed.ts"
+    "start": "node dist/server.js",
+    "seed": "tsx src/scripts/seed.ts"
   },
   "keywords": [
     "express",
