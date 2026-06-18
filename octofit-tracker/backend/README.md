@@ -26,6 +26,8 @@ cp .env.example .env
 - `PORT`: Server port (default: 8000)
 - `NODE_ENV`: Development environment (default: development)
 - `MONGODB_URI`: MongoDB connection string (default: mongodb://localhost:27017)
+  - Example: `mongodb://localhost:27017`
+  - Set this to your remote MongoDB URI if using a hosted database.
 - `CODESPACE_NAME`: GitHub Codespace name (for Codespaces deployments)
 
 ## Development
