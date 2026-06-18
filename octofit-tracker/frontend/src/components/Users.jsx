@@ -8,6 +8,7 @@ function Users() {
 
   useEffect(() => {
     const url = buildApiUrl('users')
+    // https://${import.meta.env.VITE_CODESPACE_NAME}-8000.app.github.dev/api/users/
 
     fetch(url)
       .then(async (response) => {

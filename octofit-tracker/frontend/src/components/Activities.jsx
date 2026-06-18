@@ -8,6 +8,7 @@ function Activities() {
 
   useEffect(() => {
     const url = buildApiUrl('activities')
+    // https://${import.meta.env.VITE_CODESPACE_NAME}-8000.app.github.dev/api/activities/
 
     fetch(url)
       .then(async (response) => {
